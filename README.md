@@ -1,6 +1,6 @@
 # Cybersecurity
 
-If the Jupyter Notebook doesn't load properly, please **[click here](https://nbviewer.jupyter.org/github/tainangao/Cybersecurity/blob/master/Copy_of_WEEK_3_FRAUD.ipynb)** to view the notebook.
+If the Jupyter Notebook doesn't load properly, please **[click here](https://nbviewer.jupyter.org/github/tainangao/Cybersecurity/blob/master/Copy_of_WEEK_3_FRAUD.ipynb) to view the notebook.**
 
 
 In this project I'll be working on the Kaggle competition [IEEE-CIS Fraud Detection](https://www.kaggle.com/c/ieee-fraud-detection). I'll predict the probability that an online transaction is fraudulent, as denoted by the binary target `isFraud`, using **XGBoost**.
@@ -8,6 +8,8 @@ In this project I'll be working on the Kaggle competition [IEEE-CIS Fraud Detect
 The analysis is brokendown into two parts EDA and Machine Learning. 
 1. In the EDA part, I'll explore the distribution of target and its relationship with transaction amount and categorical variables. In addition, I'll also examine the distribution of fraud transactions by datetime. 
 2. In the machine learning part, I'll employ **XGBoost** to predict the probability that an online transaction is fraudulent. As required by the competition, ROC AUC score will be used to examine the accuracy. 
+
+
 
 
 
