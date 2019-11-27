@@ -7,7 +7,7 @@ In this project I'll be working on the Kaggle competition [IEEE-CIS Fraud Detect
 
 The analysis is brokendown into two parts EDA and Machine Learning. 
 1. In the EDA part, I'll explore the distribution of target and its relationship with transaction amount and categorical variables. In addition, I'll also examine the distribution of fraud transactions by datetime. 
-2. In the machine learning part, I'll employ **XGBoost** to predict the probability that an online transaction is fraudulent. As required by the competition, ROC AUC score will be used to examine the accuracy. 
+2. In the machine learning part, I'll first use **PCA** to fit-transform the 339 V columns into 50 components and then employ **XGBoost** to predict the probability that an online transaction is fraudulent. As required by the competition, ROC AUC score will be used to examine the accuracy. As the class is highly imbalanced, I'll also provide a Percision-recall curve. 
 
 
 
